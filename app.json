@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "All Things Fitness",
+    "slug": "all-things-fitness",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "allthingsfitness",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.allthingsfitness.app"
+    },
+    "android": {
+      "package": "com.allthingsfitness.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F5D90A"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#090A0A",
+          "dark": {
+            "backgroundColor": "#090A0A"
+          }
+        }
+      ],
+      "expo-font",
+      "expo-secure-store",
+      "expo-video"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
