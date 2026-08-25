@@ -1,6 +1,7 @@
 # All Things Fitness
 
-Expo + React Native + TypeScript app for Android and iOS.
+A cross-platform fitness and community app built with Expo, React Native, TypeScript, and Supabase. It combines fitness content, recipes, social interactions, authentication, nutrition tracking, and client-side demo experiences.
+
 
 ## Phase 2 setup
 
